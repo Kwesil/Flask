@@ -14,3 +14,6 @@
 # app.run(host='0.0.0.0') // OS listens to all public IPs 
 # url_for() function is very useful for dynamically building URL for a specific function.
 # It allows to change URLs in one go, without having to remeber to change URLs all over the place
+# HTTP method - hypertext transfer protocol is an application protocol for distributed, collaborative, hypermedia information systems
+# HTTP/1.0 specifocation defined the GET, POST, and HEAD methods
+# HTTP/1.1 specification added 5 new methods; OPTIONS, PUT, DELETE, TRACE and CONNECT
