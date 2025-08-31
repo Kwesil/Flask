@@ -12,3 +12,5 @@
 # app.run(debug=True)
 # when debugging is off,the development derver on local computer can be made available to users on netowrk by
 # app.run(host='0.0.0.0') // OS listens to all public IPs 
+# url_for() function is very useful for dynamically building URL for a specific function.
+# It allows to change URLs in one go, without having to remeber to change URLs all over the place
