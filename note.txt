@@ -17,3 +17,7 @@
 # HTTP method - hypertext transfer protocol is an application protocol for distributed, collaborative, hypermedia information systems
 # HTTP/1.0 specifocation defined the GET, POST, and HEAD methods
 # HTTP/1.1 specification added 5 new methods; OPTIONS, PUT, DELETE, TRACE and CONNECT
+# GET and POST are the commonly used methods
+# GET - Sends data in unencrypted form to the server. Most common method
+# POST - Used to send HTNL form data to server. Data received by POST method is not cached by server
+# By default Flask route responds to GET requests. 
