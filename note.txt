@@ -1,0 +1,14 @@
+# Refreshing Flask framework
+# Flask constructor takes name of current module (__name__) as argument
+# route() function of Flask class is a decorator which tells the application which URL should call the associated function
+# app.route(rule, options)
+# rule parameter represents URL binding with the function
+# options is a list of parameters ti be forwarded to the underlying Rule object.
+# run() method runs the application on local development server.
+# app.run(host, port, debug, options)
+# run debug mode when under development
+# app.debug = True
+# app.run()
+# app.run(debug=True)
+# when debugging is off,the development derver on local computer can be made available to users on netowrk by
+# app.run(host='0.0.0.0') // OS listens to all public IPs 
