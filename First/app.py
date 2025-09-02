@@ -14,7 +14,7 @@ def hello_user(guest):
     return "Hello %s as  Guest" % guest
 
 @app.route('/user/<name>')
-def hello_user(name):
+def hello_userr(name):
     if name == 'admin':
         return redirect(url_for('hello_admin'))
     else:
