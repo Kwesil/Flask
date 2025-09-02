@@ -21,3 +21,10 @@
 # GET - Sends data in unencrypted form to the server. Most common method
 # POST - Used to send HTNL form data to server. Data received by POST method is not cached by server
 # By default Flask route responds to GET requests. 
+# A web application often requires static files
+# Javascript file or CSS file supporting a webpage
+# available at /static on the application
+# url_for('static', filename='style.css')
+# app.static_url_path - can be used to specifya different path for the static files on the web. Defaults to the name of the static_folder static_folder
+# app.static.folder - the folder with the static files that should be reserved as static_url_path. Defaults to the static folder in the root path of the application
+# 
