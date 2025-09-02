@@ -10,7 +10,7 @@ def welcome(name):
 
 @app.route('/login', methods=['POST', 'GET'])
 def login():
-    if request.method == 'POST':
+    if request.method == 'POST': # gets the name from the html form
         user = request.form['nm']
         return redirect(url_for('welcome', name=user))
     else:
