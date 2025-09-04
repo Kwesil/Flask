@@ -27,4 +27,11 @@
 # url_for('static', filename='style.css')
 # app.static_url_path - can be used to specifya different path for the static files on the web. Defaults to the name of the static_folder static_folder
 # app.static.folder - the folder with the static files that should be reserved as static_url_path. Defaults to the static folder in the root path of the application
-# 
+# Request Object in Flask
+# Data from client's web page is sent to server as a global request object
+# In order to process request data, it should be imported from Flask module
+# Important attributes of request object
+# Form - A MultiDict with the parsed data form data from POST or PUT requests
+# args - A MultiDict with the parsed contents of the query string. (The part of the string after the question mark)
+# values - A CombinedMultiDict with the contents of both form and args
+# cookies - a dict with the contents of all cookies transmitted with the requests
